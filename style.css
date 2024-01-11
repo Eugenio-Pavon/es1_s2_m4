@@ -1,0 +1,16 @@
+.riga .card img {
+  aspect-ratio: 1, 1;
+  height: 300px;
+  object-fit: cover;
+}
+.riga {
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  min-width: 300px;
+  max-width: 500px;
+  flex-basis: 400px;
+  flex-shrink: 400px;
+}
